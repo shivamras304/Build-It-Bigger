@@ -105,7 +105,68 @@ public class Joke {
 
             "Pessimist: \"Things just can't get any worse!\" \n" +
                     "\n" +
-                    "Optimist: \"Nah, of course they can!\""
+                    "Optimist: \"Nah, of course they can!\"",
+
+            "I wanted to grow my own food but I couldn’t get bacon seeds anywhere.",
+
+            "I was in a restaurant once and I suddenly realized I desperately needed to pass gas. " +
+                    "The music was really, really loud, so I timed my reliefs to the beat of the music. " +
+                    "After just a few songs I started to feel better. I finished my coffee, " +
+                    "and noticed that everybody was staring at me... " +
+                    "That was when I remembered I was listening to my iPod.",
+
+            "Why do women live on average two years longer? Because the time they spend parking doesn’t count.",
+
+            "I can’t believe I forgot to go to the gym today. That’s 7 years in a row now.",
+
+            "Woke up with a dead leg this morning. I will not take out a loan with the mafia ever again.",
+
+            "A naked women robbed a bank. Nobody could remember her face.",
+
+            "The 21st century: Deleting history is often more important than making it.",
+
+            "What is short and would be very disturbing at breakfast?\n" +
+                    "-\n" +
+                    "\"Hitler\"",
+
+            "\"How do you tell that a crab is drunk? It walks forwards.",
+
+            "Do you know what you can hold without ever touching it?\n" +
+                    "\n" +
+                    "A conversation.",
+
+            "I’ve no home, I haven’t got control, I can’t see any escape. Way past the time I got a new keyboard.",
+
+            "Why do cows wear bells?\n" +
+                    " \n" +
+                    "Their horns don’t work.",
+
+            "Two grains of sand go through the desert. One to the other: \"I have the feeling somebody is watching me.\"",
+
+            "“You are so kind, funny and beautiful.” \n" +
+                    "\n" +
+                    "“Oh come on. You just want to get me to bed.” \n" +
+                    "\n" +
+                    "“And smart, too!”",
+
+            "Q: What do politicians and diapers have in common? \n" +
+                    "-\n" +
+                    "A: Both should be changed regularly, and both for the same reason.",
+
+            "I’m selling my talking parrot. Why? Because yesterday, the bastard tried to sell me.",
+
+            "Do you know why women aren’t allowed in space? \n" +
+                    "-\n" +
+                    "To avoid scenarios like: \"Houston, we have a problem!\" \n" +
+                    "- \n" +
+                    "\"What is the problem?\" \n" +
+                    "-\n" +
+                    "\"Yeah, great, pretend like you don’t know what I’m talking about!\"",
+
+            "What would you call a very funny mountain? \n" +
+                    "-\n" +
+                    "Hill Arious\""
+
     };
 
     public String getJoke() {

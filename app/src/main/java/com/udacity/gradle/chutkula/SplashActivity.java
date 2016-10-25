@@ -1,5 +1,6 @@
 package com.udacity.gradle.chutkula;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,12 +11,13 @@ public class SplashActivity extends AppCompatActivity {
     /**
      * Duration of wait
      **/
-    private final int SPLASH_DISPLAY_LENGTH = 2000;
+    private final int SPLASH_DISPLAY_LENGTH = 1500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        final Activity activity = this;
 
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/

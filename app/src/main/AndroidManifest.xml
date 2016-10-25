@@ -30,6 +30,7 @@
             android:theme="@android:style/Theme.Translucent" />
 
         <activity android:name=".SplashActivity"
+            android:noHistory="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
