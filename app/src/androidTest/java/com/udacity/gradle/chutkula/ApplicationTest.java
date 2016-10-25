@@ -1,4 +1,4 @@
-package com.udacity.gradle.builditbigger;
+package com.udacity.gradle.chutkula;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
