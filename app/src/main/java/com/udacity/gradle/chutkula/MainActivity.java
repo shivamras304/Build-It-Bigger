@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else {
             Intent intent = new Intent(this, JokeActivity.class);
-            intent.putExtra("joke", joke);
+            intent.putExtra(getString(R.string.joke), joke);
             startActivity(intent);
         }
     }

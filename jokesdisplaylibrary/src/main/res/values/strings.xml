@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">JokesDisplayLibrary</string>
     <string name="JokeActivityLabel">Ha ha ha</string>
+    <string name="joke">joke</string>
 </resources>
