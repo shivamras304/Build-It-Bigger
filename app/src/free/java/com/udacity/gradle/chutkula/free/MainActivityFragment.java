@@ -1,4 +1,4 @@
-package com.udacity.gradle.chutkula.free;
+package com.udacity.gradle.chutkula;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
