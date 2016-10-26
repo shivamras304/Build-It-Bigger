@@ -18,6 +18,7 @@ import java.io.IOException;
 public class FetchJokeTask extends AsyncTask<Void, Void, String> {
     private static JokeApi jokeApiService = null;
     private boolean successfulResponse = true;
+    public static String response = null;
 
     @Override
     protected String doInBackground(Void... params) {
@@ -39,8 +40,11 @@ public class FetchJokeTask extends AsyncTask<Void, Void, String> {
             jokeApiService = builder.build();
         }
 
+
+
         try {
-            return jokeApiService.tellJoke().execute().getJoke();
+            response = jokeApiService.tellJoke().execute().getJoke();
+            return response;
         } catch (IOException e) {
             successfulResponse = false;
             return e.getMessage();
@@ -53,6 +57,5 @@ public class FetchJokeTask extends AsyncTask<Void, Void, String> {
             joke = "null";
 
         EventBus.getDefault().post(joke);
-
     }
 }
