@@ -5,4 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="welcome">Enjoy a <b>CHUTKULA</b> now!</string>
+    <string name="flavourMessage">You\'re using the free variant. Upgrade to the paid version to remove the ads. Keep Laughing!</string>
+    <string name="server_error">Can\'t connect to server. Try again!</string>
+
 </resources>
